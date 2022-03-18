@@ -131,7 +131,7 @@ body {
 
 }
 
-/* about */
+/************ about *********/
 
 
 .presentation {
@@ -193,23 +193,9 @@ body {
 
 }
 
-/* .about__texts::before{
-    content: "";
-    display: block;
-    background: #42c919;
-    width: 120%;
-    height: 100%;
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    z-index: -1;
-    clip-path: var(--clippy);
-    transition: clip-paht 2s; */
 
 
-
-
-/* projects*/
+/***************** projects************/
 
 .projects {
     background-image: linear-gradient(to left bottom, #3e3c3f, #3d3b3f, #3b3a40, #393a41, #363941, #32343c, #2f2f37, #2b2a32, #242126, #1b181b, #110e10, #000000);
