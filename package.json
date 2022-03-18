@@ -8,8 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gusungarett/maqueteando-bootstrap.git"
+    "url": "git+https://github.com/gusungarett/maqueteando-bootstrap.git",
+    "build-sass": "node-sass --include-path scss sass/index.css css/style.css"
   },
+
+  
   "keywords": [],
   "author": "",
   "license": "ISC",
