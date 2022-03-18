@@ -340,42 +340,16 @@ button:active {
     transform: scale(0.9);
 }
 
-/*Pag de ideas****aplicando GRID-Bootstrap***/
+/*Pag de ideas****aplicando f-Bootstrap***/
 
 .grid-container1 {
-    display: grid;
-    /* grid-template-columns: repeat(1); */
-    grid-template-rows: repeat(1, auto);
-    grid-template-areas:
-        "banner-1 banner-2 banner-3 banner-4"
-        /* "element1 element2 element2 element3"
-        "element4 element5 element6 element7" */
-    ;
+    display: flex;
+    justify-content: space-around;
     text-align: center;
     border: 2px solid;
     gap: 2px;
     background-color: black
 }
-
-/* .banner-1 {
-    grid-area: banner-1;
-}
-
-.element1 {
-    grid-area: element1;
-}
-
-.element2 {
-    grid-area: element2;
-}
-
-.element3 {
-    grid-area: element3;
-}
-
-.element4 {
-    grid-area: element4; */
-
 
 .footerideas {
     text-align: center;
