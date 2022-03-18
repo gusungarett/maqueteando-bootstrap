@@ -1,0 +1,48 @@
+/**************HEADER & NAVBAR*////////////////////
+
+
+
+.hero2 {
+    height: 35vh;
+    background-image: url(../image/mojtaba-mosayebzadeh-NaBvtu5Llug-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+}
+
+    .container {
+        width: 90%;
+        margin: 0 auto;
+        overflow: hidden;
+        padding: 80px 0px;
+        max-width: 1200px;
+        .nav {
+            display: flex;
+            justify-content: flex-end;
+            height: 70px;
+            align-items: center;
+            font-weight: 700;
+        }
+        .nav__items {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 20px;
+            padding: 10px 15px;
+            font-weight: inherit;
+        }
+        .nav__items--cta {
+            border: 1px solid rgb(255, 255, 255);
+        }
+        .nav__items--footer {
+            padding: 10px;
+        }
+    }
+    
+
+
+
+
+
+    

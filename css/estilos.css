@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;1,400&display=swap');
 
 
+
 :root {
     --background: -o-linear-gradient(#661eea7e 0% #764ba298 100%);
     --color-primary: var(--color-primary) #667eea;
@@ -343,19 +344,20 @@ button:active {
 
 .grid-container1 {
     display: grid;
-    grid-template-columns: repeat(1, 25%);
+    /* grid-template-columns: repeat(1); */
     grid-template-rows: repeat(1, auto);
     grid-template-areas:
         "banner-1 banner-2 banner-3 banner-4"
-        "element1 element2 element2 element3"
-        "element4 element5 element6 element7"
+        /* "element1 element2 element2 element3"
+        "element4 element5 element6 element7" */
     ;
     text-align: center;
     border: 2px solid;
     gap: 2px;
+    background-color: black
 }
 
-.banner-1 {
+/* .banner-1 {
     grid-area: banner-1;
 }
 
@@ -372,8 +374,8 @@ button:active {
 }
 
 .element4 {
-    grid-area: element4;
-}
+    grid-area: element4; */
+
 
 .footerideas {
     text-align: center;
