@@ -189,7 +189,7 @@ body {
     margin-bottom: 20px;
     line-height: 1.5;
     font-weight: 300;
-    /* transition: clip-paht 2s; */
+    transition: clip-paht 2s;
 
 }
 
@@ -198,10 +198,8 @@ body {
 /***************** projects************/
 
 .projects {
-    background-image: linear-gradient(to left bottom, #3e3c3f, #3d3b3f, #3b3a40, #393a41, #363941, #32343c, #2f2f37, #2b2a32, #242126, #1b181b, #110e10, #000000);
+    background-color: #667eea;
 }
-
-
 
 .projects__grid {
     display: grid;
@@ -264,7 +262,6 @@ body {
 }
 
 
-
 .projects__item:hover .projects__hover {
     transform: translateX(0%);
 }
@@ -272,6 +269,10 @@ body {
 .projects__icon {
     margin-top: 10px;
     font-size: 30px;
+}
+
+.botton{
+    text-align: center;
 }
 
 .ideas {
@@ -291,18 +292,18 @@ body {
 
 
 button {
-    font-size: 10px;
-    letter-spacing: 5px;
+    font-size: 25px;
+    letter-spacing: 10px;
     text-transform: uppercase;
     display: inline-block;
     text-align: center;
     font-weight: bold;
     padding: 0.7em 2em;
-    border: 3px solid #0a0a0a;
+    border: 3px solid #d39c9c;
     border-radius: 2px;
     position: relative;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
-    color: #42c919;
+    color: #070807;
     text-decoration: none;
     transition: 0.3s ease all;
     z-index: 1;
@@ -317,7 +318,7 @@ button:before {
     bottom: 0;
     opacity: 0;
     content: '';
-    background-color: #020202;
+    background-color: #0f0e0e;
     z-index: -1;
 }
 
@@ -437,7 +438,11 @@ button:active {
 
 .footer {
     background-image: linear-gradient(to right bottom, #05070b, #2a383e, #4d6c6b, #81a28f, #ccd8af);
+text-align: center;
+font-size: 25px ;
 }
+
+
 
 .footer__grid {
     display: grid;
