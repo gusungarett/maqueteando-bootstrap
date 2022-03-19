@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;1,400&display=swap');
 
-:root {
-    --background: -o-linear-gradient(#661eea7e 0% #764ba298 100%);
-    --color-primary: var(--color-primary) #667eea;
-    --color-secondary: #764ba2;
-    --boton-padding: var(--boton-padding) 20px 40px;
-    --clippy: polygon(0 1%, 0 0, 0 100%, 0% 100%);
-}
+
 button:before {
     transition: 0.5s all ease;
     position: absolute;
