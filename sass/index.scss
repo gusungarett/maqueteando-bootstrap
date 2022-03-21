@@ -1,0 +1,14 @@
+/********* VARIABLES********/
+@import "/sass/misc/variables";
+
+/*****GLOBALES*****/
+@import "/sass/misc/normalize";
+@import "/sass/misc/mixins";
+
+/*******PARTIALS************/
+@import"/sass/partials/heder";
+@import "/sass/partials/footer";
+
+/********VIEWS***********/
+@import "/sass/views/index";
+@import "/sass/views/proyecto";
