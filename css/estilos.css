@@ -340,7 +340,7 @@ button:active {
     transform: scale(0.9);
 }
 
-/*Pag de ideas****aplicando f-Bootstrap***/
+/***************Pag de ideas****aplicando f-Bootstrap*************/
 
 .grid-container1 {
     display: flex;
@@ -356,7 +356,7 @@ button:active {
 }
 
 
-/*Testimony*****GRID-FLEX*/
+/******************Testimony****************GRID-FLEX************/
 
 .testimony__grid {
     width: 100%;
