@@ -365,6 +365,7 @@ button:active {
     gap: 30px;
 }
 
+
 .testimony__item {
     width: 95%;
     margin: auto;
@@ -374,6 +375,9 @@ button:active {
     padding: 30px 25px;
     color: #fff;
     margin-bottom: 50px;
+}
+.testimony__item:hover{
+    background-color: #0c0d0e;
 }
 
 .testimony__person {
